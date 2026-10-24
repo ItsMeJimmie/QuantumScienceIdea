@@ -1,0 +1,31 @@
+/*
+  People page roster. Replaces the old inline `display: table-cell`
+  width hack, which could not wrap on narrow screens.
+*/
+
+.person-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+.person-grid > li {
+  margin-bottom: 0;
+  max-width: 200px;
+}
+.person-photo {
+  width: 100%;
+  height: auto;
+  margin: 0 0 0.5rem;
+}
+.person-name {
+  font-weight: bold;
+}
+.person-role {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: #b9b7cc;
+}

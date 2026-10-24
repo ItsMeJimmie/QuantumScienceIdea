@@ -1,0 +1,36 @@
+---
+---
+
+$base-font-family: 'Roboto', sans-serif;
+$body-font-family: 'Roboto', sans-serif;
+$code-font-family: "Source Code Pro", monospace;
+
+$brand-color: white;
+$body-background: #262768;
+$body-text-color: #e0e0e0;
+
+// Layout widths
+$container-width: 100%;
+$content-width: 600px;
+$header-thickness: 56px;
+
+// Breakpoints. These are used inside @media, so they must be absolute
+// units -- a percentage here makes every media query invalid and the
+// browser silently discards the whole block.
+$breakpoint-desktop: 900px;
+$breakpoint-tablet: 600px;
+
+$icon-transition-time: 1.0s;
+$envelope-color: #f39c12;
+$twitter-color: #00aced;
+$instagram-color: #375989;
+$github-color: #343434;
+$linkedin-color: #0073a4;
+$facebook-color: #3d5b99;
+$google-color: #e64a41;
+$pinterest-color: #bd081c;
+$medium-color: #00AB6C;
+$codepen-color: black;
+$rss-color: #ff6600;
+
+@import "-sections-dir";

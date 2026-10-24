@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="WSUQS_Logo.svg"
+   inkscape:export-filename="WSUQS_Logo.png"
+   inkscape:export-xdpi="260.10001"
+   inkscape:export-ydpi="260.10001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#046a38"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.755565"
+     inkscape:cx="178.8598"
+     inkscape:cy="183.70155"
+     inkscape:window-width="1718"
+     inkscape:window-height="1360"
+     inkscape:window-x="1713"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2029"
+       units="mm"
+       spacingx="1"
+       spacingy="1"
+       dotted="false"
+       originx="0"
+       originy="0"
+       color="#cccccc"
+       opacity="0.14901961"
+       empcolor="#4c4c4c"
+       empopacity="0.30196078" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5306">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5302" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5304" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="142.52918 : 1.4337443 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="114.92773 : 12.067198 : 1"
+       inkscape:persp3d-origin="50 : 33.333333 : 1"
+       id="perspective2405" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5306"
+       id="radialGradient5308"
+       cx="48.942662"
+       cy="67.211109"
+       fx="48.942662"
+       fy="67.211109"
+       r="35.285156"
+       gradientTransform="matrix(1,0,0,0.45366988,0,36.719454)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6776"
+       x="-0.035176261"
+       y="-0.077537132"
+       width="1.0703525"
+       height="1.1550743">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.0343332"
+         id="feGaussianBlur6778" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#262768;stroke-width:0.264999;fill-opacity:1"
+       id="Backdrop"
+       width="100"
+       height="100"
+       x="0"
+       y="0"
+       inkscape:label="background" />
+    <rect
+       style="fill:#33438f;fill-opacity:1;stroke-width:0.0851155"
+       id="main_wire"
+       width="55"
+       height="2"
+       x="40"
+       y="36" />
+    <rect
+       style="fill:#928be0;fill-opacity:1;stroke-width:0.0513268"
+       id="main_wire-2"
+       width="2"
+       height="20"
+       x="8"
+       y="27" />
+    <rect
+       style="fill:#33438f;fill-opacity:1;stroke-width:0.0761299"
+       id="top_wire"
+       width="88"
+       height="1"
+       x="6"
+       y="9" />
+    <rect
+       style="fill:#33438f;fill-opacity:1;stroke-width:0.0761299"
+       id="bottom_wire"
+       width="88"
+       height="1"
+       x="6"
+       y="90" />
+    <rect
+       style="fill:#101820;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2"
+       width="7"
+       height="7"
+       x="85"
+       y="6" />
+    <rect
+       style="fill:#5f47b1;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9"
+       width="7"
+       height="7"
+       x="74"
+       y="6" />
+    <rect
+       style="fill:#101820;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9"
+       width="7"
+       height="7"
+       x="8"
+       y="6" />
+    <rect
+       style="fill:#5f47b1;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6"
+       width="7"
+       height="7"
+       x="19"
+       y="6" />
+    <rect
+       style="fill:#928be0;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-4"
+       width="7"
+       height="7"
+       x="30"
+       y="6" />
+    <rect
+       style="fill:#e0d9ff;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-4-1"
+       width="7"
+       height="7"
+       x="41"
+       y="6" />
+    <rect
+       style="fill:#928be0;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-4-1-6"
+       width="7"
+       height="7"
+       x="52"
+       y="6" />
+    <rect
+       style="fill:#e0d9ff;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-4-1-6-6"
+       width="7"
+       height="7"
+       x="63"
+       y="6" />
+    <rect
+       style="fill:#101820;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-2"
+       width="7"
+       height="7"
+       x="85.000008"
+       y="87" />
+    <rect
+       style="fill:#e0d9ff;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-3"
+       width="7"
+       height="7"
+       x="74.000008"
+       y="87" />
+    <rect
+       style="fill:#101820;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-3"
+       width="7"
+       height="7"
+       x="8"
+       y="87" />
+    <rect
+       style="fill:#928be0;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-48"
+       width="7"
+       height="7"
+       x="19"
+       y="87" />
+    <rect
+       style="fill:#5f47b1;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-4-18"
+       width="7"
+       height="7"
+       x="30"
+       y="87" />
+    <rect
+       style="fill:#e0d9ff;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-4-1-8"
+       width="7"
+       height="7"
+       x="41"
+       y="87" />
+    <rect
+       style="fill:#5f47b1;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-4-1-6-8"
+       width="7"
+       height="7"
+       x="52"
+       y="87" />
+    <rect
+       style="fill:#928be0;fill-opacity:1;stroke-width:0.309166;stroke-dasharray:none"
+       id="mini_gate-2-9-9-6-4-1-6-6-7"
+       width="7"
+       height="7"
+       x="63.000008"
+       y="87" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f2f1f0;fill-opacity:1;stroke:none;stroke-width:0.258165;stroke-dasharray:none;stroke-opacity:1"
+       x="18.551792"
+       y="63.000172"
+       id="text4864"
+       transform="scale(1.0215994,0.97885728)"
+       inkscape:label="quantum"><tspan
+         sodipodi:role="line"
+         id="tspan365"
+         x="18.551792"
+         y="63.000172"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-opacity:1">Quantum</tspan><tspan
+         sodipodi:role="line"
+         id="tspan367"
+         x="18.551792"
+         y="80.500168"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-opacity:1"> Sciences</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8681px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.27778;stroke-dasharray:none"
+       x="11.721923"
+       y="44.511719"
+       id="text9946"
+       transform="scale(0.99631562,1.003698)"
+       inkscape:label="w"><tspan
+         sodipodi:role="line"
+         id="tspan9944"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.277781"
+         x="11.721923"
+         y="44.511719">W</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.0187px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#928be0;fill-opacity:1;stroke-width:0.198905;stroke-dasharray:none"
+       x="33.68248"
+       y="39.136089"
+       id="text11889"
+       transform="scale(0.83268432,1.2009353)"
+       inkscape:label="bracket"><tspan
+         sodipodi:role="line"
+         id="tspan11887"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.0187px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#928be0;fill-opacity:1;stroke-width:0.198906"
+         x="33.68248"
+         y="39.136089">❭</tspan></text>
+    <rect
+       style="fill:#928be0;fill-opacity:1;stroke-width:0.162307"
+       id="S-Gate"
+       width="20"
+       height="20"
+       x="45"
+       y="27" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9339px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.250873;stroke-dasharray:none"
+       x="48.000511"
+       y="43.92144"
+       id="S-Label"
+       transform="scale(1.0156386,0.9846022)"><tspan
+         sodipodi:role="line"
+         id="tspan3882"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9339px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.250873;stroke-dasharray:none"
+         x="48.000511"
+         y="43.92144">S</tspan></text>
+    <rect
+       style="fill:#928be0;fill-opacity:1;stroke-width:0.162307"
+       id="U-Gate"
+       width="20"
+       height="20"
+       x="70"
+       y="27" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6047px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.24651;stroke-dasharray:none"
+       x="74.161942"
+       y="42.771641"
+       id="U-Label"
+       transform="scale(0.97786418,1.0226369)"><tspan
+         sodipodi:role="line"
+         id="tspan4860"
+         x="74.161942"
+         y="42.771641"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.24651">U</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;mix-blend-mode:normal;fill:#f2f1f0;fill-opacity:1;stroke:none;stroke-width:0.258165;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter6776)"
+       x="13.657506"
+       y="63.000172"
+       id="text6774"
+       transform="matrix(1.0215994,0,0,0.97885728,5,0)"
+       inkscape:label="quantum_back"><tspan
+         sodipodi:role="line"
+         id="tspan6770"
+         x="13.657506"
+         y="63.000172"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-opacity:1">Quantum</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6772"
+         x="13.657506"
+         y="80.500168"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Century;-inkscape-font-specification:'Century, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-opacity:1"> Sciences</tspan></text>
+  </g>
+</svg>

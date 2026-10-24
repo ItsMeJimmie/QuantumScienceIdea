@@ -1,0 +1,28 @@
+<div class="related">
+  <h2>{{ site.data.settings.related_posts }}</h2>
+  {% assign listed_posts_urls = page.url | split: ' ' %}
+  <ul class="related-posts">
+    {% for tag in page.tags %}
+      {% for mypost in site.tags[tag] limit:2 %}
+        {% unless listed_posts_urls contains mypost.url %}
+          <li>
+            <h3>
+              <a href="{{ mypost.url | relative_url }}">
+                {% if mypost.image %}
+                  <div class="related-thumbnail">
+                    <img src="{{ '/assets/img/' | append: mypost.image | relative_url }}"
+                         alt="{{ mypost.title | escape }}">
+                  </div>
+                {% endif %}
+                <div class="related-title">
+                  {{ mypost.title }}
+                </div>
+              </a>
+            </h3>
+          </li>
+          {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>

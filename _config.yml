@@ -1,0 +1,26 @@
+# Site settings
+
+title:               "Wright State University Quantum Sciences"
+description:         "An organization for exploring all things quantum"
+author:              "managed by Alex Groeger"
+
+# Used by jekyll-seo-tag, jekyll-feed and the `relative_url` filter.
+url:                 "https://wsu-quantum-sciences.github.io"
+baseurl:             ""
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# jekyll-paginate needs both of these to generate /page2/, /page3/, ...
+paginate:            5
+paginate_path:       "/page:num/"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - vendor

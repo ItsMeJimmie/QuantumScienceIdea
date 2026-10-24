@@ -1,0 +1,29 @@
+# Change 'comments' to true for Disqus comments, and set your own shortname.
+disqus:
+  comments: false
+  disqus_shortname: ''
+
+menu:
+- {name: 'About',     url: 'about'}
+- {name: 'Club',      url: 'club'}
+- {name: 'People',    url: 'people'}
+- {name: 'Research',  url: 'research'}
+- {name: 'Resources', url: 'resources'}
+
+# Social icons are rendered with Font Awesome, so any icon it offers works.
+# Uncomment and fill in to show them in the header and footer.
+social:
+# - {icon: 'envelope',    link: 'mailto:someone@wright.edu'}
+# - {icon: 'github',      link: 'https://github.com/wsu-quantum-sciences'}
+# - {icon: 'linkedin',    link: 'https://www.linkedin.com/company/example'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy...'
+
+post_date_prefix: 'Written on'
