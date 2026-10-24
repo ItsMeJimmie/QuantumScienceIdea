@@ -14,8 +14,7 @@ with an emphasis on quantum computing. It can be found on
 
 If you wish to attend a meeting, please RSVP to the event you wish to attend on
 [Engage](https://wright.campuslabs.com/engage/organization/wsuquantum/events)
-or simply show up. The club meetings are recorded, and slides are available
-here after each session.
+or simply show up.
 
 - **Location:** Russ Engineering 146
 - **Time:** 4:00 to 4:45 PM
@@ -27,8 +26,8 @@ To receive the meeting password, email
 
 ## Past Meetings
 
-- [September 3rd](https://wright.campuslabs.com/engage/event/10273676): [Slides](https://raidermailwright-my.sharepoint.com/:p:/g/personal/groeger_2_wright_edu/EQOdpAg7OndNp7uw2EaAn7wBMcaf9ozBT0Xu8fb5CbmAQQ?e=sY3HVq)
-- [September 17th](https://wright.campuslabs.com/engage/event/10273677): [Slides](https://raidermailwright-my.sharepoint.com/:p:/g/personal/groeger_2_wright_edu/EYGdED6wQlFArDAAPueNOk0BT9MwHPjumJQH4JDRwPJGOw?e=o90TOf)
-- [October 1st](https://wright.campuslabs.com/engage/event/10273678): [Slides](https://raidermailwright-my.sharepoint.com/:p:/g/personal/groeger_2_wright_edu/EQuETrLFrAdCgcHClvJ6aJkBvmlCvKBGnw5KUIJEgfDQHw?e=abz83G)
-- [October 15th](https://wright.campuslabs.com/engage/event/10273679): [Slides](https://raidermailwright-my.sharepoint.com/:p:/g/personal/groeger_2_wright_edu/EY0bAQqWQIhDgASwwcWXIlsBHgnuOUB46cbvRSFT34734Q?e=yK7fQv)
-- [October 29th](https://wright.campuslabs.com/engage/event/10273680): [Slides](https://raidermailwright-my.sharepoint.com/:p:/g/personal/groeger_2_wright_edu/EeLlhlP_OHNNp-amQ7nv-J8BXpBrCt9nMxEId5thbpXeBw?e=TaeZ9m)
+- [September 3rd](https://wright.campuslabs.com/engage/event/10273676)
+- [September 17th](https://wright.campuslabs.com/engage/event/10273677)
+- [October 1st](https://wright.campuslabs.com/engage/event/10273678)
+- [October 15th](https://wright.campuslabs.com/engage/event/10273679)
+- [October 29th](https://wright.campuslabs.com/engage/event/10273680)
