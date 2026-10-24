@@ -1,36 +1,41 @@
 //
-// Home page. The logo's own background is #262768, the same as the page,
-// so it needs no card or border -- it sits directly on the background
-// with no visible seam.
+// Home page: logo on the left, everything else on the right.
+//
+// Wider than the 600px text column the other pages use, because two
+// columns inside 600px would leave each one too narrow to read.
 //
 
 .landing {
-  max-width: $content-width;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 0 $gutter 40px;
-  text-align: center;
+  padding: 2.5rem $gutter 40px;
 }
 .landing-logo {
-  display: block;
-  width: 100%;
-  max-width: 320px;
+  flex: 0 0 auto;
+  width: 280px;
+  max-width: 100%;
   height: auto;
-  margin: 0 auto 1rem;
+  margin: 0;
+}
+.landing-body {
+  flex: 1 1 320px;
+  min-width: 0; // lets the column shrink instead of forcing an overflow
 }
 .landing-tagline {
   margin-top: 0;
   font-size: 1.2rem;
   color: $muted-text-color;
 }
-.landing-intro {
-  text-align: left;
-}
 .landing-links {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 0.75rem;
   list-style: none;
-  margin: 2rem 0 0;
+  margin: 1.5rem 0 0;
   padding: 0;
 }
 .landing-links li {
@@ -43,13 +48,26 @@
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
+  text-align: center;
 }
 .container .landing-links a:hover,
 .container .landing-links a:focus {
   background-color: $accent-color;
 }
 .landing-latest {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
   font-size: 0.9rem;
   color: $muted-text-color;
+}
+
+// Too narrow for two columns: stack them and centre the logo.
+@media (max-width: $breakpoint-tablet) {
+  .landing {
+    justify-content: center;
+    text-align: center;
+  }
+  .landing-logo {
+    margin: 0 auto;
+  }
 }
