@@ -22,6 +22,9 @@ $gutter: 16px;
 // browser silently discards the whole block.
 $breakpoint-desktop: 900px;
 $breakpoint-tablet: 600px;
+// Below this the home page stacks: the logo plus a readable text
+// column no longer fit side by side.
+$breakpoint-landing: 860px;
 
 
 @import "-sections-dir";
