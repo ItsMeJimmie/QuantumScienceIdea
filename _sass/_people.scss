@@ -37,4 +37,9 @@
   line-height: 1;
   color: $muted-text-color;
   text-decoration: none;
+  transition: color 0.2s;
+}
+.container .person-link:hover,
+.container .person-link:focus {
+  color: $body-text-color;
 }

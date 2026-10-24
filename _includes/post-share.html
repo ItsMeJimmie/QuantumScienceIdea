@@ -1,7 +1,13 @@
 <div class="post-share">
   <div class="post-date">{{ site.data.settings.sharing_button_prompt }}</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i><span class="sr-only">Share on Twitter</span></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+    <a class="social-link" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener">
+      {% include icon.html name="x" %}
+      <span class="sr-only">Share this post on X</span>
+    </a>
+    <a class="social-link" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener">
+      {% include icon.html name="facebook" %}
+      <span class="sr-only">Share this post on Facebook</span>
+    </a>
   </div>
 </div>

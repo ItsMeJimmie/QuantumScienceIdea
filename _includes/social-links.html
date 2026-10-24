@@ -1,0 +1,14 @@
+{%- comment -%}
+  Shared by the header, the mobile dropdown and the footer, so the
+  markup and the accessible labels only exist in one place.
+{%- endcomment -%}
+{% for item in site.data.settings.social %}
+  {%- assign href = item.link -%}
+  {%- unless item.link contains "://" or item.link contains "mailto:" -%}
+    {%- assign href = item.link | relative_url -%}
+  {%- endunless -%}
+  <a class="social-link" href="{{ href }}"{% unless item.link contains "mailto:" %} target="_blank" rel="noopener"{% endunless %}>
+    {% include icon.html name=item.icon %}
+    <span class="sr-only">{{ item.label | default: item.icon }}</span>
+  </a>
+{% endfor %}

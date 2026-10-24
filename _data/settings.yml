@@ -12,10 +12,21 @@ menu:
 
 # Social icons are rendered with Font Awesome, so any icon it offers works.
 # Uncomment and fill in to show them in the header and footer.
+# Social links shown in the header, the mobile menu and the footer.
+# `icon` must name one defined in _includes/icon.html: email, github,
+# linkedin, instagram, youtube, x, facebook, rss, link.
+# `label` is read aloud by screen readers in place of the icon, so make
+# it say where the link goes.
+# Uncomment and fill in a line to add it; delete a line to remove it.
 social:
-# - {icon: 'envelope',    link: 'mailto:someone@wright.edu'}
-# - {icon: 'github',      link: 'https://github.com/wsu-quantum-sciences'}
-# - {icon: 'linkedin',    link: 'https://www.linkedin.com/company/example'}
+- {icon: 'email', link: 'mailto:groeger.2@wright.edu', label: 'Email WSU Quantum Sciences'}
+- {icon: 'link',  link: 'https://wright.campuslabs.com/engage/organization/wsuquantum', label: 'WSU Quantum Sciences on Engage'}
+- {icon: 'rss',   link: '/feed.xml', label: 'Subscribe to the feed'}
+# - {icon: 'github',    link: 'https://github.com/REPLACE-ME',               label: 'WSU Quantum Sciences on GitHub'}
+# - {icon: 'linkedin',  link: 'https://www.linkedin.com/company/REPLACE-ME', label: 'WSU Quantum Sciences on LinkedIn'}
+# - {icon: 'instagram', link: 'https://www.instagram.com/REPLACE-ME',        label: 'WSU Quantum Sciences on Instagram'}
+# - {icon: 'youtube',   link: 'https://www.youtube.com/@REPLACE-ME',         label: 'WSU Quantum Sciences on YouTube'}
+# - {icon: 'x',         link: 'https://x.com/REPLACE-ME',                    label: 'WSU Quantum Sciences on X'}
 
 # Customize site text
 pagination:

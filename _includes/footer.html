@@ -1,7 +1,7 @@
 <footer class="footer">
-  {% for item in site.data.settings.social %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank" rel="noopener"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i><span class="sr-only">{{ item.icon }}</span></a>
-  {% endfor %}
+  <div class="footer-social">
+    {% include social-links.html %}
+  </div>
   <div class="footer-description">
     <a href="{{ '/' | relative_url }}">{{ site.title }} | {{ site.description }}</a><br>
     {{ site.author }}

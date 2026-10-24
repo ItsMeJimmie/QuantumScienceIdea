@@ -137,3 +137,32 @@ th, td {
   white-space: nowrap;
   border: 0;
 }
+
+/*
+  Inline SVG icons.
+
+  One muted/bright treatment for every icon rather than per-brand hover
+  colours: of the eleven the old palette defined, five scored under
+  3:1 against this background and GitHub's #343434 was invisible at
+  1.07:1.
+*/
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  display: inline-block;
+}
+.social-link {
+  display: inline-block;
+  padding: 0 0.35rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+/* No colour of its own: icons inherit whichever surface they sit on,
+   so they always match the links beside them. */
+.social-link:hover,
+.social-link:focus {
+  opacity: 0.75;
+}
