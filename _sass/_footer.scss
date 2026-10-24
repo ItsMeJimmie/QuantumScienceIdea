@@ -1,19 +1,41 @@
+//
+// The footer sits as one row: text on the left, icons on the right,
+// wrapping to two centred rows only when there is no width for both.
+//
+// It used to be three stacked blocks under a line-height of 45px, which
+// gave 12.8px text a 45px line box and made the whole thing 151px tall.
+//
+
 .footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
+  padding: 0.7rem $gutter;
   background-color: #33438F;
   color: $brand-color;
-  text-align: center;
-  min-height: $header-thickness;
-  line-height: 45px;
-  width: $container-width;
+  line-height: 1.5;
 }
 .footer a {
   color: $brand-color;
-  padding: 0px 10px 0px;
   text-decoration: none;
 }
 .footer-description {
-  display: block;
-  margin-bottom: 1rem;
-  color: $muted-text-color;
+  margin: 0;
   font-size: 0.8rem;
+  color: $muted-text-color;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+// Too narrow for both on one line: stack them, centred.
+@media (max-width: $breakpoint-tablet) {
+  .footer {
+    justify-content: center;
+    text-align: center;
+  }
 }
