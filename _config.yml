@@ -2,6 +2,7 @@
 
 title:               "Wright State University Quantum Sciences"
 description:         "An organization for exploring all things quantum"
+tagline:             "An organization for exploring all things quantum"
 author:              "managed by Alex Groeger"
 
 # Used by jekyll-seo-tag, jekyll-feed and the `relative_url` filter.
@@ -16,7 +17,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # jekyll-paginate needs both of these to generate /page2/, /page3/, ...
 paginate:            5
-paginate_path:       "/page:num/"
+paginate_path:       "/blog/page:num/"
 
 exclude:
   - Gemfile

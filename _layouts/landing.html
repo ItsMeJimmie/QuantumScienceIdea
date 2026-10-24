@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="landing">
+  <!-- The logo carries the wordmark, so the heading is for screen
+       readers and search engines rather than sighted visitors. -->
+  <h1 class="sr-only">{{ site.title }}</h1>
+
+  <img class="landing-logo"
+       src="{{ '/assets/img/WSUQS_Logo.svg' | relative_url }}"
+       alt="{{ site.title }} logo"
+       width="320" height="320">
+
+  <p class="landing-tagline">{{ site.description }}</p>
+
+  <div class="landing-intro">
+    {{ content }}
+  </div>
+
+  <ul class="landing-links">
+    {% for item in site.data.settings.menu %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+
+  {% assign latest = site.posts.first %}
+  {% if latest %}
+    <p class="landing-latest">
+      Latest post: <a href="{{ latest.url | relative_url }}">{{ latest.title }}</a>
+    </p>
+  {% endif %}
+</div>

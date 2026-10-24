@@ -4,11 +4,11 @@ disqus:
   disqus_shortname: ''
 
 menu:
-- {name: 'About',     url: 'about'}
 - {name: 'Club',      url: 'club'}
 - {name: 'People',    url: 'people'}
 - {name: 'Research',  url: 'research'}
 - {name: 'Resources', url: 'resources'}
+- {name: 'Blog',      url: 'blog'}
 
 # Social icons are rendered with Font Awesome, so any icon it offers works.
 # Uncomment and fill in to show them in the header and footer.
