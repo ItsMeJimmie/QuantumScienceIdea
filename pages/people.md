@@ -26,18 +26,6 @@ permalink: /people
 <ul class="person-grid">
   <li>
     <img class="person-photo"
-         src="{{ '/assets/img/people/alex-groeger.jpg' | relative_url }}"
-         alt="Headshot of Alex Groeger">
-    <p class="person-name">Alex Groeger</p>
-    <p class="person-role">Ph.D. Student in Quantum Error Correction</p>
-    <a class="person-link" href="https://www.linkedin.com/in/alexander-h-groeger/"
-       target="_blank" rel="noopener">
-      {% include icon.html name="linkedin" %}
-      <span class="sr-only">Alex Groeger on LinkedIn</span>
-    </a>
-  </li>
-  <li>
-    <img class="person-photo"
          src="{{ '/assets/img/people/andrew-young.png' | relative_url }}"
          alt="Headshot of Andrew Young">
     <p class="person-name">Andrew Young</p>
