@@ -25,3 +25,19 @@ exclude:
   - LICENSE.md
   - README.md
   - vendor
+
+# Default link-preview image for every page. jekyll-seo-tag reads
+# `page.image`, so a Jekyll default is what makes it site-wide; a page or
+# post that sets its own `image` still overrides this.
+#
+# jekyll-seo-tag promotes twitter:card to summary_large_image as soon as
+# an image exists, which crops to roughly 2:1 and would slice the qubit
+# bars off the top and bottom of a square logo. Forced back to summary.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/WSUQS_Logo.png
+
+twitter:
+  card: summary
