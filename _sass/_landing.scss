@@ -7,7 +7,7 @@
 .landing {
   max-width: $content-width;
   margin: 0 auto;
-  padding: 0 10px 40px;
+  padding: 0 $gutter 40px;
   text-align: center;
 }
 .landing-logo {

@@ -15,6 +15,7 @@ $muted-text-color: #b9b7cc;
 $container-width: 100%;
 $content-width: 600px;
 $header-thickness: 56px;
+$gutter: 16px;
 
 // Breakpoints. These are used inside @media, so they must be absolute
 // units -- a percentage here makes every media query invalid and the
@@ -27,7 +28,7 @@ $envelope-color: #f39c12;
 $twitter-color: #00aced;
 $instagram-color: #375989;
 $github-color: #343434;
-$linkedin-color: #0073a4;
+$linkedin-color: #4aa3df;  // lightened; brand blue is too dark on #262768
 $facebook-color: #3d5b99;
 $google-color: #e64a41;
 $pinterest-color: #bd081c;
