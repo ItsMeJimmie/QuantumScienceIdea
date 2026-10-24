@@ -5,7 +5,7 @@
 
 .person-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1.5rem;
   list-style: none;
   margin: 1rem 0;
@@ -13,7 +13,7 @@
 }
 .person-grid > li {
   margin-bottom: 0;
-  max-width: 200px;
+  max-width: 220px;
 }
 .person-photo {
   width: 100%;
@@ -27,13 +27,13 @@
 .person-role {
   margin-top: 0.25rem;
   margin-bottom: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: $muted-text-color;
 }
 .container .person-link {
   display: inline-block;
   margin-top: 0.4rem;
-  font-size: 1.4rem;
+  font-size: 1.55rem;
   line-height: 1;
   color: $muted-text-color;
   text-decoration: none;
@@ -42,4 +42,19 @@
 .container .person-link:hover,
 .container .person-link:focus {
   color: $body-text-color;
+}
+
+.person-placeholder {
+  // Without this the 2px dashed border sits outside the 100% width and
+  // the box comes out 4px wider than the headshots beside it.
+  box-sizing: border-box;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin: 0 0 0.5rem;
+  border: 2px dashed $accent-color;
+  border-radius: 4px;
+}
+.person-name--pending {
+  color: $muted-text-color;
+  font-weight: normal;
 }

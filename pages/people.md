@@ -48,6 +48,10 @@ permalink: /people
       <span class="sr-only">Andrew Young on LinkedIn</span>
     </a>
   </li>
+  <li>
+    <div class="person-placeholder" aria-hidden="true"></div>
+    <p class="person-name person-name--pending">More to be added</p>
+  </li>
 </ul>
 
 ## Undergraduate Students
