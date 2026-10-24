@@ -1,4 +1,7 @@
 //
+// Header and footer share $accent-color, which is a logo colour. The
+// footer used to be #33438F, a blue that appears nowhere in the mark.
+//
 // The footer sits as one row: text on the left, icons on the right,
 // wrapping to two centred rows only when there is no width for both.
 //
@@ -13,7 +16,7 @@
   justify-content: space-between;
   gap: 0.25rem 1.5rem;
   padding: 0.7rem $gutter;
-  background-color: #33438F;
+  background-color: $accent-color;
   color: $brand-color;
   line-height: 1.5;
 }
@@ -24,7 +27,7 @@
 .footer-description {
   margin: 0;
   font-size: 0.8rem;
-  color: $muted-text-color;
+  color: $body-text-color;
 }
 .footer-social {
   display: flex;
