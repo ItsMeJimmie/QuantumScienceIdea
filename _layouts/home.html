@@ -2,21 +2,25 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
-  {% include featured-post.html %}
-{% endfor %}
+<div class="post-list">
+  <h1>{{ page.title }}</h1>
 
-{% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-button pagination-active" href="{{ paginator.next_page_path | relative_url }}">{{ site.data.settings.pagination.previous_page }}</a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      <a class="pagination-button pagination-active" href="{{ paginator.previous_page_path | relative_url }}">{{ site.data.settings.pagination.next_page }}</a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-    {% endif %}
-  </div>
-{% endif %}
+  {% for post in paginator.posts %}
+    {% include post-card.html %}
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.next_page %}
+        <a class="pagination-button pagination-active" href="{{ paginator.next_page_path | relative_url }}">{{ site.data.settings.pagination.previous_page }}</a>
+      {% else %}
+        <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+      {% endif %}
+      {% if paginator.previous_page %}
+        <a class="pagination-button pagination-active" href="{{ paginator.previous_page_path | relative_url }}">{{ site.data.settings.pagination.next_page }}</a>
+      {% else %}
+        <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

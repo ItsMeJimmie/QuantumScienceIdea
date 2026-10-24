@@ -1,7 +1,7 @@
 <header class="site-header">
-  <h3 class="site-title">
+  <p class="site-title">
     <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-  </h3>
+  </p>
   <nav class="menu-list" aria-label="Main">
     {% for item in site.data.settings.menu %}
       <a href="{{ item.url | relative_url }}" class="menu-link">{{ item.name }}</a>
