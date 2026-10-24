@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Club
+title: Quantum Sciences Club
 permalink: /club
 ---
+
+{%- assign discord = site.data.settings.social | where: "icon", "discord" | first -%}
 
 ## Organization
 
@@ -16,18 +18,23 @@ If you wish to attend a meeting, please RSVP to the event you wish to attend on
 [Engage](https://wright.campuslabs.com/engage/organization/wsuquantum/events)
 or simply show up.
 
-- **Location:** Russ Engineering 146
-- **Time:** 4:00 to 4:45 PM
+- **Location:** Joshi 384
+- **Time:** 2:00 PM to 3:00 PM
 
-Online attendance is available via
-[WebEx](https://wright.webex.com/wright/j.php?MTID=m9fdb22584d57416bb50169f029b4fdf5).
-To receive the meeting password, email
-[Jimmie Cox](mailto:cox.366@wright.edu).
+Online attendance is temporarily suspended. If you are interested in joining
+virtually, let us know on our
+[Discord]({{ discord.link | default: 'https://discord.gg/xTszxFKkWj' }}).
 
 ## Past Meetings
+
+### 2024
 
 - [September 3rd, 2024](https://wright.campuslabs.com/engage/event/10273676)
 - [September 17th, 2024](https://wright.campuslabs.com/engage/event/10273677)
 - [October 1st, 2024](https://wright.campuslabs.com/engage/event/10273678)
 - [October 15th, 2024](https://wright.campuslabs.com/engage/event/10273679)
 - [October 29th, 2024](https://wright.campuslabs.com/engage/event/10273680)
+
+### 2026
+
+Coming soon.
