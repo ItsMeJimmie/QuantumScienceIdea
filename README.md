@@ -11,10 +11,14 @@ rebuilt from the Millennial-theme site at
 
 ```sh
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl ""
 ```
 
 Then open <http://127.0.0.1:4000>.
+
+`--baseurl ""` is there because `_config.yml` sets `baseurl` to the repo
+path, which is what GitHub Pages needs. Without the override a local
+server mounts the site under `/QuantumScienceIdea/` instead of `/`.
 
 ## Where things live
 

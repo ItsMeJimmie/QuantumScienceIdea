@@ -6,8 +6,15 @@ tagline:             "An organization for exploring all things quantum"
 author:              "Quantum Sciences Club"
 
 # Used by jekyll-seo-tag, jekyll-feed and the `relative_url` filter.
-url:                 "https://wsu-quantum-sciences.github.io"
-baseurl:             ""
+# GitHub Pages serves a project repo from <owner>.github.io/<repo>/, so
+# baseurl is the repo path. Every internal link goes through
+# `relative_url`, which prepends it.
+#
+# That means a local `jekyll serve` also mounts the site under that path.
+# Serve it at the root instead with:
+#   bundle exec jekyll serve --baseurl ""
+url:                 "https://itsmejimmie.github.io"
+baseurl:             "/QuantumScienceIdea"
 
 # Build settings
 markdown:            kramdown
