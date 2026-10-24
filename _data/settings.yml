@@ -22,7 +22,6 @@ social:
 - {icon: 'email', link: 'mailto:cox.366@wright.edu', label: 'Email WSU Quantum Sciences'}
 - {icon: 'link',  link: 'https://wright.campuslabs.com/engage/organization/wsuquantum', label: 'WSU Quantum Sciences on Engage'}
 - {icon: 'discord', link: 'https://discord.gg/xTszxFKkWj', label: 'Join the Quantum Sciences Discord'}
-- {icon: 'rss',   link: '/feed.xml', label: 'Subscribe to the feed'}
 # - {icon: 'github',    link: 'https://github.com/REPLACE-ME',               label: 'WSU Quantum Sciences on GitHub'}
 # - {icon: 'linkedin',  link: 'https://www.linkedin.com/company/REPLACE-ME', label: 'WSU Quantum Sciences on LinkedIn'}
 # - {icon: 'instagram', link: 'https://www.instagram.com/REPLACE-ME',        label: 'WSU Quantum Sciences on Instagram'}
