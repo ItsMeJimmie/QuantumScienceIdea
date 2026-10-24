@@ -123,9 +123,9 @@ th, td {
   text-align: left;
 }
 
-/*
-  Visually hidden, still read by screen readers.
-*/
+//
+// Visually hidden, still read by screen readers.
+//
 .sr-only {
   position: absolute;
   width: 1px;
@@ -138,14 +138,14 @@ th, td {
   border: 0;
 }
 
-/*
-  Inline SVG icons.
-
-  One muted/bright treatment for every icon rather than per-brand hover
-  colours: of the eleven the old palette defined, five scored under
-  3:1 against this background and GitHub's #343434 was invisible at
-  1.07:1.
-*/
+//
+// Inline SVG icons.
+//
+// Icons take no colour of their own and inherit whichever surface they
+// sit on, so they always match the links beside them. The old per-brand
+// hover palette is gone: of its eleven colours, five scored under 3:1
+// against this background and GitHub's #343434 was invisible at 1.07:1.
+//
 .icon {
   width: 1em;
   height: 1em;
@@ -160,8 +160,6 @@ th, td {
   text-decoration: none;
   transition: opacity 0.2s;
 }
-/* No colour of its own: icons inherit whichever surface they sit on,
-   so they always match the links beside them. */
 .social-link:hover,
 .social-link:focus {
   opacity: 0.75;

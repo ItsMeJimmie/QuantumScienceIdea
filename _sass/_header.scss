@@ -70,6 +70,16 @@
   padding: 12px 16px;
   text-decoration: none;
 }
+// Icons sit in a row at the bottom of the menu rather than taking a
+// full-width line each, which `.dropdown-content a` would otherwise
+// force on them.
+.dropdown-content .social-link {
+  display: inline-block;
+  padding: 12px 6px;
+}
+.dropdown-content .social-link:first-of-type {
+  padding-left: 16px;
+}
 
 /*
   Desktop: inline nav, no dropdown.
