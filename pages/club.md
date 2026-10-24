@@ -23,7 +23,7 @@ here after each session.
 Online attendance is available via
 [WebEx](https://wright.webex.com/wright/j.php?MTID=m9fdb22584d57416bb50169f029b4fdf5).
 To receive the meeting password, email
-[Alex Groeger](mailto:groeger.2@wright.edu).
+[Jimmie Cox](mailto:cox.366@wright.edu).
 
 ## Past Meetings
 
