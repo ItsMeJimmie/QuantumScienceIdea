@@ -1,28 +1,36 @@
-<div class="related">
-  <h2>{{ site.data.settings.related_posts }}</h2>
-  {% assign listed_posts_urls = page.url | split: ' ' %}
-  <ul class="related-posts">
-    {% for tag in page.tags %}
-      {% for mypost in site.tags[tag] limit:2 %}
-        {% unless listed_posts_urls contains mypost.url %}
-          <li>
-            <h3>
-              <a href="{{ mypost.url | relative_url }}">
-                {% if mypost.image %}
-                  <div class="related-thumbnail">
-                    <img src="{{ '/assets/img/' | append: mypost.image | relative_url }}"
-                         alt="{{ mypost.title | escape }}">
-                  </div>
-                {% endif %}
-                <div class="related-title">
-                  {{ mypost.title }}
-                </div>
-              </a>
-            </h3>
-          </li>
-          {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
-        {% endunless %}
+{% comment %}
+  Collect related posts first, so the section can be skipped entirely
+  when there are none. The old version always emitted the heading and
+  an empty <ul>, so a site with one post showed a bare
+  "You may also enjoy..." with nothing under it.
+{% endcomment %}
+{% assign related_urls = '' | split: '' %}
+{% assign related_posts = '' | split: '' %}
+{% for tag in page.tags %}
+  {% for mypost in site.tags[tag] %}
+    {% unless mypost.url == page.url or related_urls contains mypost.url %}
+      {% assign related_urls = related_urls | push: mypost.url %}
+      {% assign related_posts = related_posts | push: mypost %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{% if related_posts.size > 0 %}
+  <div class="related">
+    <h2>{{ site.data.settings.related_posts }}</h2>
+    <ul class="related-posts">
+      {% for mypost in related_posts limit: 4 %}
+        <li>
+          <a class="related-link" href="{{ mypost.url | relative_url }}">
+            {% if mypost.image %}
+              <img class="related-thumb"
+                   src="{{ '/assets/img/' | append: mypost.image | relative_url }}"
+                   alt="" aria-hidden="true">
+            {% endif %}
+            <span class="related-title">{{ mypost.title }}</span>
+          </a>
+        </li>
       {% endfor %}
-    {% endfor %}
-  </ul>
-</div>
+    </ul>
+  </div>
+{% endif %}
