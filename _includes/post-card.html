@@ -6,8 +6,9 @@
         link's meaning, so an empty alt keeps it out of the a11y tree.
       {% endcomment %}
       <img class="post-card-thumb"
-           src="{{ '/assets/img/' | append: post.image | relative_url }}"
-           alt="" aria-hidden="true">
+           src="{{ post.image | relative_url }}"
+           alt="" aria-hidden="true"
+           loading="lazy" decoding="async">
     {% endif %}
     <div class="post-card-body">
       <h2 class="post-card-title">{{ post.title }}</h2>

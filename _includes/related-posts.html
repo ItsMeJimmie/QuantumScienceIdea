@@ -24,8 +24,9 @@
           <a class="related-link" href="{{ mypost.url | relative_url }}">
             {% if mypost.image %}
               <img class="related-thumb"
-                   src="{{ '/assets/img/' | append: mypost.image | relative_url }}"
-                   alt="" aria-hidden="true">
+                   src="{{ mypost.image | relative_url }}"
+                   alt="" aria-hidden="true"
+           loading="lazy" decoding="async">
             {% endif %}
             <span class="related-title">{{ mypost.title }}</span>
           </a>

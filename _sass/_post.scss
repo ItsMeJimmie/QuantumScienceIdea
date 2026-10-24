@@ -6,13 +6,8 @@
 .post-date {
   display: block;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: $muted-text-color;
   font-size:0.8rem;
-}
-.featured-image img {
-  margin: 5px auto 25px;
-  display: block;
-  max-width: $content-width;
 }
 @media (max-width: $breakpoint-desktop) {
   .post-content {
@@ -20,22 +15,12 @@
     display: block;
     margin: 10px auto 10px;
   }
-  .featured-image img {
-      margin: 5px auto 25px;
-    display: block;
-    max-width: 60vw;
-  }
 }
 @media (max-width: $breakpoint-tablet) {
   .post-content {
     max-width: 95vw;
     display: block;
     margin: 10px auto 10px;
-  }
-  .featured-image img {
-      margin: 5px auto 25px;
-    display: block;
-    max-width: 95vw;
   }
 }
 .post-share {
