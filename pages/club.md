@@ -26,8 +26,8 @@ To receive the meeting password, email
 
 ## Past Meetings
 
-- [September 3rd](https://wright.campuslabs.com/engage/event/10273676)
-- [September 17th](https://wright.campuslabs.com/engage/event/10273677)
-- [October 1st](https://wright.campuslabs.com/engage/event/10273678)
-- [October 15th](https://wright.campuslabs.com/engage/event/10273679)
-- [October 29th](https://wright.campuslabs.com/engage/event/10273680)
+- [September 3rd, 2024](https://wright.campuslabs.com/engage/event/10273676)
+- [September 17th, 2024](https://wright.campuslabs.com/engage/event/10273677)
+- [October 1st, 2024](https://wright.campuslabs.com/engage/event/10273678)
+- [October 15th, 2024](https://wright.campuslabs.com/engage/event/10273679)
+- [October 29th, 2024](https://wright.campuslabs.com/engage/event/10273680)
