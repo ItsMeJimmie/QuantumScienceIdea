@@ -17,8 +17,8 @@ If you wish to attend a meeting, please RSVP to the event you wish to attend on
 or simply show up. The club meetings are recorded, and slides are available
 here after each session.
 
-- **Location:** Joshi 399
-- **Time:** 5pm to 6pm
+- **Location:** Russ Engineering 146
+- **Time:** 4:00 to 4:45 PM
 
 Online attendance is available via
 [WebEx](https://wright.webex.com/wright/j.php?MTID=m9fdb22584d57416bb50169f029b4fdf5).
