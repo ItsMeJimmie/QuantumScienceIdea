@@ -9,26 +9,29 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 2rem;
-  max-width: 900px;
-  margin: 0 auto;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: auto;
   padding: 2.5rem $gutter 40px;
 }
 .landing-logo {
   flex: 0 0 auto;
-  width: 280px;
+  width: 340px;
   max-width: 100%;
   height: auto;
   margin: 0;
 }
 .landing-body {
-  flex: 1 1 320px;
+  flex: 1 1 300px;
   min-width: 0; // lets the column shrink instead of forcing an overflow
 }
 .landing-tagline {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: $muted-text-color;
+}
+.landing-intro {
+  font-size: 1.05rem;
 }
 .landing-links {
   display: grid;
@@ -43,7 +46,7 @@
 }
 .container .landing-links a {
   display: block;
-  padding: 0.9rem 0.5rem;
+  padding: 1rem 0.5rem;
   border: 1px solid $accent-color;
   border-radius: 4px;
   text-decoration: none;

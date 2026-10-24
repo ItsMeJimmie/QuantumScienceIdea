@@ -34,6 +34,10 @@
   margin: 0 auto;
   width: 100%;
 }
+.content-wrapper--centred {
+  display: flex;
+  flex-direction: column;
+}
 .content-wrapper h1 {
   margin: 0px 0px 0px;
 }
