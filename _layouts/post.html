@@ -10,6 +10,7 @@ layout: default
   <article>
     {{ content }}
   </article>
+  <p class="post-back"><a href="{{ '/blog' | relative_url }}">&larr; All posts</a></p>
   {% if site.hide_post_share != true %}
     {% include post-share.html %}
   {% endif %}

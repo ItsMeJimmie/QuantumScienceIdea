@@ -3,15 +3,37 @@
   display: block;
   margin: 10px auto 10px;
   padding: 0 $gutter;
+  font-size: 1.1rem;
 }
 .post-date {
   display: block;
   margin-bottom: 1rem;
   color: $muted-text-color;
-  font-size:0.8rem;
+  font-size: 1rem;
 }
 .post-share {
-  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(95, 71, 177, 0.6);
+}
+.post-share-prompt {
+  margin: 0;
+  color: $muted-text-color;
+  font-size: 0.95rem;
+}
+.post-back {
+  margin-top: 2rem;
+}
+.container .post-back a {
+  text-decoration: none;
+  color: $muted-text-color;
+}
+.container .post-back a:hover,
+.container .post-back a:focus {
+  color: $body-text-color;
 }
 .sharing-icons a {
   padding-right: 10px;
