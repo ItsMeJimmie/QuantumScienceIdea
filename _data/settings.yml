@@ -19,7 +19,7 @@ menu:
 # it say where the link goes.
 # Uncomment and fill in a line to add it; delete a line to remove it.
 social:
-- {icon: 'email', link: 'mailto:groeger.2@wright.edu', label: 'Email WSU Quantum Sciences'}
+- {icon: 'email', link: 'mailto:cox.366@wright.edu', label: 'Email WSU Quantum Sciences'}
 - {icon: 'link',  link: 'https://wright.campuslabs.com/engage/organization/wsuquantum', label: 'WSU Quantum Sciences on Engage'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/alexander-h-groeger/', label: 'Alex Groeger on LinkedIn'}
 - {icon: 'rss',   link: '/feed.xml', label: 'Subscribe to the feed'}
